@@ -1,0 +1,22 @@
+{
+  "extends": ["plugin:react/recommended", "standard"],
+  "root": true,
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "prefer-const": "error",
+    "no-var": "error",
+    "semi": "off",
+    "quotes": "off",
+    "indent": ["error", 2],
+    "react/prop-types": [0],
+    "space-before-function-paren": "off",
+    "comma-dangle": "off"
+  }
+}
